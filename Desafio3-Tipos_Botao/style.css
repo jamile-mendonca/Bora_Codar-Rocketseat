@@ -1,0 +1,283 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background: #1E1E1E;
+}
+
+.container {
+  position: relative;
+  background: #0B0911;
+  width: 1517px;
+  height: 947px;
+  border-radius: 9px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 808px;
+  height: 46px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 23px;
+
+  color: #FFFFFF;
+
+  padding: 100px;
+  gap: 14px;
+}
+
+
+.btn-type {
+  box-sizing: border-box;
+  position: absolute;
+
+  width: 958px;
+  height: 570px;
+  left: 77px;
+  top: 261px;
+
+  border-width: 0px 6px 7px 0px;
+  border-style: solid;
+  border-color: #1C162C;
+  border-radius: 8px;
+}
+
+
+.types,
+.styles {
+  display: flex;
+  flex-direction: row;
+}
+
+.types,
+.style {
+  display: flex;
+  color: #FFFFFF;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  font-family: 'Roboto';
+  background: #1C162C;
+}
+
+.types {
+  align-items: center;
+  height: 50px;
+}
+
+.types-style {
+  width: 290px;
+  height: 15px;
+}
+
+.types-style-cursor {
+  width: 82px;
+  height: 15px;
+  line-height: 13px;
+}
+
+.styles {
+  align-items: center;
+  gap: 60px;
+  width: 94px;
+}
+
+.style {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 86px;
+}
+
+.test {
+  background: #130F1E;
+  position: absolute;
+  width: 406px;
+  height: 947px;
+  left: 1035px;
+  top: -262px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  width: 176px;
+  height: 40px;
+  border-radius: 24px;
+  white-space: nowrap;
+  color: #ffffff;
+  font-family: 'Inter';
+  font-size: 10px;
+  line-height: 24px;
+}
+
+img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  margin: 15px;
+}
+
+.default-primary {
+  background-color: #8257e5;
+}
+
+.default-secondary {
+  background-color: #3C3748;
+}
+
+.default-tertiary {
+  background-color: #0B0911;
+  border: none;
+}
+
+.hover-primary {
+  background-color: #9674e6;
+}
+
+.hover-secondary {
+  background-color: #6A617F;
+}
+
+.hover-tertiary {
+  background-color: #0B0911;
+  border: none;
+}
+
+.focus-primary {
+  background-color: #8257e5;
+  border: 2px solid #d9cdf7;
+}
+
+.focus-secondary {
+  background-color: #3C3748;
+  border: 2px solid #d9cdf7;
+}
+
+.focus-tertiary {
+  background-color: #0B0911;
+  border: 2px solid #d9cdf7;
+}
+
+.disabled-primary {
+  background-color: #8257e5;
+  opacity: 0.56;
+}
+
+.disabled-secondary {
+  background-color: #3C3748;
+  opacity: 0.56;
+}
+
+.disabled-tertiary {
+  background-color: #0B0911;
+  border: none;
+  opacity: 0.56;
+}
+
+.loading-primary {
+  background-color: #8257e5;
+}
+
+.loading-secondary {
+  background-color: #3C3748;
+}
+
+.loading-tertiary {
+  background-color: #0B0911;
+  border: none;
+}
+
+.movable-primary {
+  background-color: #8257e5;
+
+}
+
+.movable-secondary {
+  background-color: #3C3748;
+}
+
+.movable-tertiary {
+  background-color: #0B0911;
+  border: none;
+}
+
+.hover-primary:hover,
+.hover-secondary:hover,
+.hover-tertiary:hover,
+.focus-primary:focus,
+.focus-secondary:focus,
+.focus-tertiary:focus {
+  background-color: #46219e;
+}
+
+.btn-int {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+
+  position: absolute;
+  width: 317px;
+  height: 208px;
+  left: 45px;
+  top: 261px;
+}
+
+.btn-int-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 8px;
+
+  width: 317px;
+  height: 48px;
+
+  background: #8257E5;
+  border-radius: 24px;
+}
+
+.btn-int-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 8px;
+
+  width: 317px;
+  height: 48px;
+
+  background: #3C3748;
+  opacity: 0.56;
+  border-radius: 24px;
+}
+
+.btn-int-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 8px;
+
+  width: 317px;
+  height: 48px;
+
+  border-radius: 24px;
+  background-color: #130F1E;
+  border: none;
+}
