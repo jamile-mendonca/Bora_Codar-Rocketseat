@@ -172,44 +172,53 @@ img {
 .disabled-primary {
   background-color: #8257e5;
   opacity: 0.56;
+  cursor: not-allowed;
 }
 
 .disabled-secondary {
   background-color: #3C3748;
   opacity: 0.56;
+  cursor: not-allowed;
 }
 
 .disabled-tertiary {
   background-color: #0B0911;
   border: none;
   opacity: 0.56;
+  cursor: not-allowed;
 }
 
 .loading-primary {
   background-color: #8257e5;
+  cursor: progress;
 }
 
 .loading-secondary {
   background-color: #3C3748;
+  cursor: progress;
 }
 
 .loading-tertiary {
   background-color: #0B0911;
   border: none;
+  cursor: progress;
 }
 
 .movable-primary {
   background-color: #8257e5;
+  cursor: move;
 
 }
 
 .movable-secondary {
   background-color: #3C3748;
+  cursor: move;
 }
 
 .movable-tertiary {
   background-color: #0B0911;
   border: none;
+  cursor: move;
 }
 
 .hover-primary:hover,
@@ -218,21 +227,19 @@ img {
 .focus-primary:focus,
 .focus-secondary:focus,
 .focus-tertiary:focus {
-  background-color: #46219e;
+  background-color: #64436b;
 }
 
 .btn-int {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 12px 24px;
   gap: 32px;
-
   position: absolute;
   width: 317px;
   height: 208px;
   left: 45px;
-  top: 261px;
 }
 
 .btn-int-1 {
@@ -240,12 +247,8 @@ img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 12px 24px;
-  gap: 8px;
-
   width: 317px;
   height: 48px;
-
   background: #8257E5;
   border-radius: 24px;
 }
@@ -255,15 +258,12 @@ img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 12px 24px;
-  gap: 8px;
-
   width: 317px;
   height: 48px;
-
   background: #3C3748;
   opacity: 0.56;
   border-radius: 24px;
+
 }
 
 .btn-int-3 {
@@ -271,12 +271,8 @@ img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 12px 24px;
-  gap: 8px;
-
   width: 317px;
   height: 48px;
-
   border-radius: 24px;
   background-color: #130F1E;
   border: none;

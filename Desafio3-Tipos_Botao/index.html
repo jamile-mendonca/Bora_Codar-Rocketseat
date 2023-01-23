@@ -235,9 +235,13 @@
             <p>Interaja com os botões e observe <br /> a mudança de aparência e de cursores</p>
           </div>
           <div class="btn-int">
-            <div> <button class="btn-int-1">INTERAJA COMIGO</button></div>
-            <div></div> <button class="btn-int-2">INTERAJA COMIGO</button>
-            <div> <button class="btn-int-3"><img src="./assets/iconMovable.svg" style="width: 16px;" />INTERAJA
+            <div> <button class="btn-int-1" onclick="changeColor('btn-int-1')" ;
+                onMouseOut="backBtn('btn-int-1')">INTERAJA
+                COMIGO</button></div>
+            <div> <button class=" btn-int-2" onMouseOver="changeColor('btn-int-2');"
+                onMouseOut="backBtn('btn-int-2')">INTERAJA COMIGO</button> </div>
+            <div> <button class="btn-int-3" onMouseOver="changeColor('btn-int-3');"
+                onMouseOut="backBtn('btn-int-3')"><img src="./assets/iconMovable.svg" style="width: 16px;" />INTERAJA
                 COMIGO</button></div>
           </div>
 
