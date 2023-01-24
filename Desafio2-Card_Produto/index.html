@@ -17,23 +17,32 @@
   <div id="catalog">
     <div class="sofa">
       <div><img src="./assets/sofa.jpg" /></div>
-      <button name="button" class="openModal" onclick="openModalBtn()">
-        <img src="./assets/360.svg" alt="icone 360º">
+
+
       </button>
     </div>
     <div class="informations">
       <div class="text">
-        <div class="cod">CÓDIGO: 42404</div>
-        <div class="description">Sofá Margot II - Rosé</div>
-        <div class="value">R$4.000</div>
+        <div class="cod">
+          CÓDIGO: 42404
+        </div>
+        <div class="description">
+          Sofá Margot II - Rosé
+        </div>
+        <div class="value">
+          R$4.000
+        </div>
+
       </div>
-      <button type="button" class="cart">ADICIONAR À CESTA</button>
+      <button type="button" class="cart" onclick="addCart()">ADICIONAR À CESTA</button>
     </div>
 
-    <div id="fade" class="hide"></div>
-    <div id="modal" class="hide">
+    <button name="button" class="bt" onclick="openModalBtn('modal')">
+      <img src="./assets/360.svg" alt="icone 360º" class=bt-icon></button>
+    <div id="modal">
+
       <div class="gif"><img src="./assets/sofaGif.gif" /></div>
-      <button class="closeModal" onclick="closeModalBtn()"><img src="./assets/closeModal.svg" /> </button>
+      <button class="bt" onclick="closeModalBtn('modal')"><img src="./assets/closeModal.svg" class=bt-icon /> </button>
     </div>
 
 </body>

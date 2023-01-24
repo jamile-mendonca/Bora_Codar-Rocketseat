@@ -1,23 +1,24 @@
-
-const closeModal = document.getElementsByClassName('closeModal');
-const fade = document.getElementById('#fade');
-const modal = document.getElementById('#modal');
-
-function openModalBtn() {
-  const openModal = document.getElementsByClassName('openModal');
-  if (typeof openModal[0] == 'undefined' || openModal[0] === null)
+function openModalBtn(modalName) {
+  const modal = document.getElementById('modal');
+  if (typeof modal == 'undefined' || modal === null)
     return;
 
-  openModal[0].style.display = "Block";
+  modal.style.display = "Block";
   document.body.style.overflow = "hidden";
+
 }
 
 
-function closeModalBtn() {
-  const closeModal = document.getElementsByClassName('closeModal');
-  if (typeof closeModal[0] == 'undefined' || closeModal[0] === null)
+function closeModalBtn(modalName) {
+  const modal = document.getElementById('modal');
+  if (typeof modal == 'undefined' || modal === null)
     return;
 
-  closeModal[0].style.display = "none";
+  modal.style.display = "none";
   document.body.style.overflow = "auto";
+}
+
+function addCart() {
+  const cart = document.getElementsByClassName('cart');
+  alert('Item adicionado com sucesso!')
 }
