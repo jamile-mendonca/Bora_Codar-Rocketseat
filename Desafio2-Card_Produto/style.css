@@ -15,11 +15,6 @@ body {
   border-radius: 10px;
 }
 
-.sofa img {
-  width: 449px;
-  height: 223px;
-}
-
 .informations {
   display: flex;
   flex-direction: column;
@@ -31,6 +26,7 @@ body {
   width: 281px;
   height: 498px;
 }
+
 
 .text {
   display: flex;
